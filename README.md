@@ -72,9 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Commands and installs
 npm i @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react 
 
-https://www.youtube.com/watch?v=UKdQjQX1Pko&list=WL&index=33&t=15s
-Map section
-Key Google
-rlins
-http://console.cloud.google.com/projectcreate
-
