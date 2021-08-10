@@ -10,7 +10,7 @@ const App = () => {
   const [places, setPlaces] = useState([]);
   // const [coordinates, setCoordinates] = useState({ lat:-22.0123, lng:-47.8908 });
   const [coordinates, setCoordinates] = useState({});
-  const [bounds, setBounds] = useState(null);
+  const [bounds, setBounds] = useState({});
 
   useEffect(()=>{
       navigator.geolocation.getCurrentPosition(({coords:{latitude, longitude}})=>{
@@ -20,14 +20,15 @@ const App = () => {
 
   useEffect (() => {
 
-    let sw = '';
-    let ne = '';
+    // let sw = '';
+    // let ne = '';
 
-    if(bounds){
-      sw = bounds.sw;
-      ne = bounds.ne;
-    }
-    getPlacesData(sw, ne)
+    // if(bounds){
+    //   sw = bounds.sw;
+    //   ne = bounds.ne;
+    // }
+    // getPlacesData(sw, ne)
+    getPlacesData(bounds.sw, bounds.ne)
       .then((data) => {
         //console.log(data)
         setPlaces(data);

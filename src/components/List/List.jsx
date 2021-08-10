@@ -17,16 +17,16 @@ const List  = ({ places }) => {
       <Typography variant="h4">
         Restaurant, Hotels & Attractions arround you
       </Typography>
-      <FormControl className={classes.FormControl}>
-        <InputLabel>Type</InputLabel>
-        <Select value={type} onChange={(e) =>setType(e.target.value)}>
-          <MenuItem value="restaurants">restaurants</MenuItem>
+      <FormControl className={classes.formControl}>
+        <InputLabel id="type">Type</InputLabel>
+        <Select id="type" value={type} onChange={(e) =>setType(e.target.value)}>
+          <MenuItem value="restaurants">Restaurants</MenuItem>
           <MenuItem value="hotels">Hotels</MenuItem>
           <MenuItem value="attractions">Attractions</MenuItem>
         </Select>
       </FormControl>
 
-      <FormControl className={classes.FormControl}>
+      <FormControl className={classes.formControl}>
         <InputLabel>Rating</InputLabel>
         <Select value={rating} onChange={(e) =>setRating(e.target.value)}>
           <MenuItem value={0}>All</MenuItem>
