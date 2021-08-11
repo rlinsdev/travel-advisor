@@ -30,15 +30,19 @@ const App = () => {
   },[rating])
 
   useEffect (() => {
-    setIsLoading(true);
-    getPlacesData(type, bounds.sw, bounds.ne)
-      .then((data) => {
-        //console.log(data); // Dado recuperado da API
-        setPlaces(data);
-        setFilteredPlaces([]);
-        setIsLoading(false);
-      });
-  }, [type, coordinates, bounds]);
+
+    if(bounds.sw && bounds.ne) {
+      setIsLoading(true);
+      getPlacesData(type, bounds.sw, bounds.ne)
+        .then((data) => {
+          //console.log(data); // Dado recuperado da API
+          setPlaces(data?.filter((place)=> place.name && place.num_reviews > 0));
+          setFilteredPlaces([]);
+          setIsLoading(false);
+        });
+      }
+
+  }, [type, bounds]);
 
   return (
     <>
