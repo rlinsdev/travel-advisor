@@ -1,21 +1,11 @@
 import React, { useState, useEffect, createRef } from 'react';
-
 import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select } from '@material-ui/core';
-
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
-
 import useStyles from './styles';
 
+const List  = ({ places, childClicked, isLoading, type, setType, rating, setRating }) => {
 
-const List  = ({ places, childClicked, isLoading }) => {
-  //alert(childClicked) // Deu certo
-  // console.log('click')
-  // console.log({childClicked})
-
-  const [type, setType] = useState('restaurants');
-  const [rating, setRating] = useState('restaurants');
   const [elRefs, setElRefs] = useState([]);
-
   const classes = useStyles();
 
   useEffect(() => {
