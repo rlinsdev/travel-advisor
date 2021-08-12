@@ -72,3 +72,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Commands and installs
 npm i @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react 
 
+
+### O QUE PROJETO POSSUI - OLAHR O README DO MANGUINHO
+
+RapidAPI
+  -Open Weather
+  -
+
+O que a aplicação tem
+  -Google maps
+  -Google place
+
+-React
+-Axio
