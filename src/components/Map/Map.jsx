@@ -18,11 +18,10 @@ const Map  = ({ setCoordinates, setBounds, coordinates, places, setChildClicked,
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
-        // defaultZoom={15}
         margin={[50,50,50,50]}
         options={''}
         onChange={(e)=>{
-           setCoordinates({lat:e.center.lat, lng:e.center.lng});
+           setCoordinates({lat: e.center.lat, lng: e.center.lng});
            setBounds({ne: e.marginBounds.ne, sw: e.marginBounds.sw });
          }}
         onChildClick={(child)=>setChildClicked(child)}

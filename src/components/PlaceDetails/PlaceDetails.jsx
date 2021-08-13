@@ -9,15 +9,7 @@ import useStyles from './styles.js';
 const PlaceDetails  = ({ place, selected, refProp }) => {
   const classes = useStyles();
 
-  // console.log('Quando clica, entra aqui sim!');
-  // if(selected){
-  //   console.log('selecionado')
-  // } else {
-  //   console.log('nao selecionado')
-  // }
-  //if(selected) alert('oi')
   if (selected) refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
   
   return(
     <Card elevation={6}>

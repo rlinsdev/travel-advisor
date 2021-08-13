@@ -25,7 +25,7 @@ const Header  = ({setCoordinates}) => {
         </Typography>
         <Box display="flex">
         <Typography variant="h6" className={classes.title}>
-          Explore new places
+          Where
         </Typography>
         <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChange}>
           <div className={classes.search}>

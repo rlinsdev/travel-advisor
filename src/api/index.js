@@ -4,7 +4,7 @@ export const getPlacesData = async (type, sw, ne) =>{
   try {
     
     const { data:{ data } } = await axios.get(
-      `https://travel-advisor.p.rapidapi.com/${type}/list-in-boundary`, { // Mesma URL da API aponta para os 3 tipos
+      `https://travel-advisor.p.rapidapi.com/${type}/list-in-boundary`, { // RapidApi - 
       params: {
         bl_latitude: sw.lat,
         tr_latitude: ne.lat,
