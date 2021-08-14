@@ -1,7 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# [Live Site:](https://lins-travel-advisor.netlify.app/)
+![Travel Advisor](https://i.ibb.co/qph2cZn/image.pngg)
+
+
 # Sumary: 
-Geolocation, Google Maps API & Google Places API, RapidApi, fetching API data based on the location, data filtering
+Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering
 
 
 # Packages and tools
@@ -10,6 +14,8 @@ Geolocation, Google Maps API & Google Places API, RapidApi, fetching API data ba
 * React
 * Axios
 * Material UI
+* npx create-react-app ./ 
+* npm i @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react
 
 
 # APIs
@@ -22,6 +28,14 @@ Geolocation, Google Maps API & Google Places API, RapidApi, fetching API data ba
 # publish
 * Vercel 
 
+
+# Links
+* http://console.cloud.google.com/projectcreate
+* https://rapidapi.com/
+
+
+# Based on:
+* https://www.youtube.com/watch?v=UKdQjQX1Pko
 
 ## Available Scripts
 In the project directory, you can run:
