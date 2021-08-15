@@ -25,8 +25,8 @@ Build and Deploy an advanced Travel Companion Application using Google Maps. Wit
 * Google Place
 
 
-# publish
-* Vercel 
+# Publish
+* Netlify 
 
 
 # Links
@@ -35,7 +35,10 @@ Build and Deploy an advanced Travel Companion Application using Google Maps. Wit
 
 
 # Based on:
+* https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+* https://www.youtube.com/watch?v=Qms4k6y7OgI&list=PL4cUxeGkcC9hw1g77I35ZivVLe8k2nvjB
 * https://www.youtube.com/watch?v=UKdQjQX1Pko
+
 
 ## Available Scripts
 In the project directory, you can run:

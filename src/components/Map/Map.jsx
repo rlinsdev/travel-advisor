@@ -10,7 +10,6 @@ const Map  = ({ setCoordinates, setBounds, coordinates, places, setChildClicked,
   const classes = useStyles();
   const isDesktop = useMediaQuery('(min-width:600px)');
 
-  console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
   return(
     <div className={classes.mapContainer}>
       <GoogleMapReact 
