@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# [Live Site:](https://lins-travel-advisor.netlify.app/)
+# [Live Site:](https://travel-advisor-netlify.netlify.app/)
 ![Travel Advisor](https://i.ibb.co/qph2cZn/image.pngg)
 
 
